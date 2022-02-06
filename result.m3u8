@@ -552,6 +552,9 @@ http://39.135.34.147:8080/000000001000/1000000002000013359/1.m3u8?channel-id=yst
 #EXTINF:-1 tvg-id="67" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/xizang.png" group-title="ChinaMobile", 西藏卫视
 http://39.135.34.151:8080/000000001000/6603041244077933770/1.m3u8?channel-id=ystenlive&Contentid=6603041244077933770&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=bd8bb70bdb2b54bd84b587dffa024f7621vv&usergroup=g21077200000&version=1.0&owaccmark=6603041244077933770&owchid=ystenlive&owsid=1106497909461425998&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE4rU4xzu091vKo8roYmr5h0BUDfpV78hsy2ysppzSDfUZCxoKss4LitbPhVYxcC0QN4CD2KiJutsirhMo3jfYAi
 
+#EXTINF:-1 tvg-id="67" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/xizang.png" group-title="ChinaMobile", CM---占位频道不可用---MC
+http://223.110.235.2/ott.js.chinamobile.com/PLTV/3/224/3221228057/index.m3u8
+
 #EXTINF:-1 tvg-id="67" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/xizang.png" group-title="ChinaMobile", CM-凤凰卫视
 http://223.110.235.2/ott.js.chinamobile.com/PLTV/3/224/3221228057/index.m3u8
 
