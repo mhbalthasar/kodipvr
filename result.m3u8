@@ -439,7 +439,9 @@ http://39.135.34.146:8080/000000001000/1000000001000004794/1.m3u8?channel-id=yst
 http://39.135.34.152:8080/000000001000/1000000001000020505/1.m3u8?channel-id=ystenlive&Contentid=1000000001000020505&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=bd8bb70bdb2b54bd84b587dffa024f7621vv&usergroup=g21077200000&version=1.0&owaccmark=1000000001000020505&owchid=ystenlive&owsid=1106497909461103025&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE7AORAoVDZDWbFnJ0sXJEaRkrZ1YVus93dDbxNB4SF1DDcF4ZpIL8iGHt%2bMdt2ZAOlknlq9lyy%2fQZJVqiFUxfle
 
 #EXTINF:-1 tvg-id="6" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV16.png" group-title="ChinaMobile", CM-CCTV-16 奥运频道 高清
-http://223.110.235.9/ott.js.chinamobile.com/PLTV/3/224/3221228168/index.m3u8
+http://223.110.236.4/wh7f454c46tw906577365_2060522254/ott.js.chinamobile.com/PLTV/3/224/3221228127/index.m3u8?icpid=3&RTS=1643629056&from=40
+
+#BACKUP-CCTV16:http://223.110.235.9/ott.js.chinamobile.com/PLTV/3/224/3221228168/index.m3u8
 
 #EXTINF:-1 tvg-id="7" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV6.png" group-title="ChinaMobile", CCTV-6 电影 高清
 http://39.135.34.140:8080/000000001000/1000000001000016466/1.m3u8?channel-id=ystenlive&Contentid=1000000001000016466&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=bd8bb70bdb2b54bd84b587dffa024f7621vv&usergroup=g21077200000&version=1.0&owaccmark=1000000001000016466&owchid=ystenlive&owsid=1106497909461115566&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE7AORAoVDZDWbFnJ0sXJEaRPL4aTeGJNlZwIkZROfGAKEC3iG4uOUkYNIdPRliCqBi8AjSQtKTBHB8b3LPXJcIA
@@ -559,4 +561,4 @@ http://39.135.34.151:8080/000000001000/6603041244077933770/1.m3u8?channel-id=yst
 http://223.110.235.2/ott.js.chinamobile.com/PLTV/3/224/3221228057/index.m3u8
 
 #EXTINF:-1 tvg-id="67" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/xizang.png" group-title="ChinaMobile", CM-凤凰资讯
-http://223.110.236.4/wh7f454c46tw906577365_2060522254/ott.js.chinamobile.com/PLTV/3/224/3221228127/index.m3u8?icpid=3&RTS=1643629056&from=40
+http://223.110.235.4/ott.js.chinamobile.com/PLTV/3/224/3221228098/index.m3u8
