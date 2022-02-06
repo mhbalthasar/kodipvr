@@ -31,6 +31,8 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: pushback
         run: |
+          git config --global user.email "machines@ma.com"
+          git config --global user.name "AutoUpdater"
           git add -A
           git commit -m "setup"
           git push
