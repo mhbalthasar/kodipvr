@@ -4,6 +4,7 @@ mkdir src/txt
 git clone https://github.com.cnpmjs.org/aowatchsea/Aran
 cp ./Aran/all.m3u ./src/src1.m3u8
 git clone https://github.com.cnpmjs.org/SPX372928/MyIPTV
+rm ./src/txt/*.txt
 cp ./MyIPTV/*.txt ./src/txt/
 rm ./src/txt/Y失效*.txt
 
