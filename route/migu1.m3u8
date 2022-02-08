@@ -1,1 +1,4 @@
+#EXTM3U
+
+#EXT-X-STREAM-INF:BANDWIDTH=960000
 https://mgsp-ali.live.miguvideo.com/migu/sports/olympic181/51/20220106/01.m3u8?msisdn=3dad9aaa5c4747d7d19bd8dc15628d9e&mdspid=&spid=800033&netType=0&sid=7510054043&pid=2028597139&timestamp=20220208182330&Channel_ID=0132_10010001005&ProgramID=722729976&ParentNodeID=-99&assertID=7510054043&client_ip=61.135.44.143&SecurityKey=20220208182330&mvid=7510026871&mcid=500020&mpid=120000201502&playurlVersion=SJ-A1-5.1.1.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&bean=mgspwww&encrypt=8f5035e135705c1f3eab97ba112e3b52&HlsSubType=1&nphaid=0&HlsProfileId=1&mtv_session=cc66f0de58c53ede36ddedf6f17ad6ac
