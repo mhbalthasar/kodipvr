@@ -1,0 +1,32 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: Sync-MiguLive-Olympic
+
+on:
+  schedule:
+    - cron: '0 4 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v2
+      with:
+        python-version: "3.10"
+    - name: Reset Migu Live
+      run: |
+        python3 ./route/src/getmigu.py 713587377 > ./route/src/migu1.m3u8
+        python3 ./route/src/getmigu.py 713591450 > ./route/src/migu2.m3u8
+        python3 ./route/src/getmigu.py 713589837 > ./route/src/migu3.m3u8
+    - name: pushback
+      run: |
+        git config --global user.email "machines@ma.com"
+        git config --global user.name "AutoUpdater"
+        git add -A
+        git commit -m "setup"
+        git push
+    
