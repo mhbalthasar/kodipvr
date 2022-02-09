@@ -24,6 +24,9 @@ jobs:
         python-version: "3.10"
     - name: Reset Migu Live
       run: |
+        pip3 install requests
+        pip3 install urllib
+        pip3 install json
         python3 ./route/src/getmigu.py 713587377 > ./route/src/migu1.m3u8
         python3 ./route/src/getmigu.py 713591450 > ./route/src/migu2.m3u8
         python3 ./route/src/getmigu.py 713589837 > ./route/src/migu3.m3u8
