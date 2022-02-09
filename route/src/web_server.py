@@ -20,7 +20,7 @@ def pID2Url(pid):
     if ((t-tc) > 5):
         import getmigu as gm
         curl=gm.getMiguContId(pid)
-        furl=gm.ddCalcu(curl)
+        furl=gm.pushUrl(gm.ddCalcu(curl))
         cache[pid]=furl
         timec[pid]=int(t)
     else:
@@ -41,7 +41,7 @@ def mID2Url(mID,idx):
             import getmigu as gm
             pid=lm.getDbID(mID)[int(idx)]["pID"]
             curl=gm.getMiguContId(pid)
-            furl=gm.ddCalcu(curl)
+            furl=gm.pushUrl(gm.ddCalcu(curl))
         except:
             furl=''
         cache[inr]=furl
@@ -95,9 +95,12 @@ class WISG(object):
             import getmigu as gm
             arr=file_name.split("/")
             if(len(arr)>2):
-                pid=arr[2]
-                pidu=pID2Url(pid)
-                self.send_m3u8(pidu, new_client_socket)
+                try:
+                        pid=arr[2]
+               	        pidu=pID2Url(pid)
+                        self.send_m3u8(pidu, new_client_socket)
+                except:
+                        self.send_empty(new_client_socket)
                 new_client_socket.close()
                 return
 
@@ -110,8 +113,11 @@ class WISG(object):
                     Idx=str(int(arr[3])-1)
                 else:
                     Idx='0'
-                pidu=mID2Url(mId,Idx)
-                self.send_m3u8(pidu, new_client_socket)
+                try:
+                        pidu=mID2Url(mId,Idx)
+                        self.send_m3u8(pidu, new_client_socket)
+                except:
+                        self.send_empty(new_client_socket)
                 new_client_socket.close()
                 return
 

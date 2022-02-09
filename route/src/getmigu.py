@@ -67,6 +67,12 @@ def getMiguContId(cid):
     except:
         return ""
 
+def pushUrl(furl):
+    rst = requests.get(furl, allow_redirects=False)
+    if (rst.status_code==302) or (rst.status_code==301):
+        return rst.headers["Location"]
+    return furl
+
 if __name__ == '__main__':
     xcode='713587377'
     try:
@@ -77,5 +83,5 @@ if __name__ == '__main__':
     #24小时：713587377
     #雪上    713591450
     #冰上    713589837    
-    furl=ddCalcu(curl)
+    furl=pushUrl(ddCalcu(curl))
     print(furl)

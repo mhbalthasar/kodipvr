@@ -30,6 +30,7 @@ def getDbID(pid):
 def pID2Url(pid):
     curl=gm.getMiguContId(pid)
     furl=gm.ddCalcu(curl)
+    furl=gm.pushUrl(furl)
     return furl
 
 #js=getDbID('120000204149')
