@@ -73,7 +73,7 @@ if __name__ == '__main__':
         xcode=sys.argv[1]
     except:
         pass
-    curl=getMiguContId(xcode)
+    curl=getMiguContId(xcode)#20220209008')
     #24小时：713587377
     #雪上    713591450
     #冰上    713589837    
