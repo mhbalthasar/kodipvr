@@ -567,9 +567,14 @@ http://liveop.cctv.cn/hls/CCTV16HD/playlist.m3u8
 #EXTINF:-1 tvg-id="67" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV16.png" group-title="ChinaMobile", CM-CCTV奥运频道-2
 http://223.110.236.4/wh7f454c46tw906577365_2060522254/ott.js.chinamobile.com/PLTV/3/224/3221228127/index.m3u8?icpid=3&RTS=1643629056&from=40
 
-EXTINF:-1 tvg-id="67" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV16.png" group-title="ChinaMobile", CM-咪咕直播间2
-https://mgsp-ali.live.miguvideo.com/migu/sports/olympic181/51/20220106/01.m3u8?msisdn=6759e7de02659200123ade121aaec130&mdspid=&spid=800033&netType=0&sid=7510054149&pid=2028597139&timestamp=20220209184036&Channel_ID=0132_10010001005&ProgramID=722785025&ParentNodeID=-99&assertID=7510054149&client_ip=61.135.44.140&SecurityKey=20220209184036&mvid=7510026924&mcid=500020&mpid=120000202048&playurlVersion=SJ-A1-5.1.1.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&bean=mgspwww&encrypt=bb535790e2cf4dc5962a549b17039c30&HlsSubType=1&nphaid=0&HlsProfileId=1&mtv_session=5915011428b86927f828a4e4781c26b5
+#EXTINF:-1 tvg-id="68" tvg-logo="https://img.cmvideo.cn/publish/noms/2021/10/08/1O334F973IMI7.png" group-title="ChinaMobile", MG-咪咕直播间-24小时实时直播
+http://61.135.44.158:1935/live/713587377
 
+#EXTINF:-1 tvg-id="68" tvg-logo="https://img.cmvideo.cn/publish/noms/2021/10/08/1O334F973IMI7.png" group-title="ChinaMobile", MG-咪咕直播间-雪上项目直播
+http://61.135.44.158:1935/live/713591450
+
+#EXTINF:-1 tvg-id="68" tvg-logo="https://img.cmvideo.cn/publish/noms/2021/10/08/1O334F973IMI7.png" group-title="ChinaMobile", MG-咪咕直播间-冰上项目直播
+http://61.135.44.158:1935/live/713589837
 
 #BACKUP-CCT:http://223.110.235.9/ott.js.chinamobile.com/PLTV/3/224/3221228168/index.m3u8
 #http://223.110.235.9/ott.js.chinamobile.com/PLTV/3/224/3221228168/index.m3u8
