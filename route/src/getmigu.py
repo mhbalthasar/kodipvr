@@ -50,7 +50,7 @@ def ddCalcu(url):
 
 def getMiguContId(cid):
     try:
-        url = "https://webapi.miguvideo.com/gateway/playurl/v3/play/playurl?contId=%s&rateType=3&startPlay=true&flvEnable=true" % cid
+        url = "https://webapi.miguvideo.com/gateway/playurl/v3/play/playurl?contId=%s&rateType=3&clientId=79acd784-cbbb-4cae-8778-8723e001164b&startPlay=true&flvEnable=true&channelId=0132_10010001005" % cid
         headers = {
             'Accept' : 'application/json, text/plain, */*',
             'terminalId' : 'www',
@@ -64,6 +64,7 @@ def getMiguContId(cid):
             'Referer' : 'https://www.miguvideo.com/mgs/website/prd/sportsHomePage.html',
             'Accept-Encoding' : 'gzip, deflate, br',
             'Accept-Language' : 'zh-CN,zh;q=0.9',
+            'X-UP-CLIENT-CHANNEL-ID' : '0132_10010001005'
         }
         res = requests.get(url, headers=headers)
         jsdata = json.loads(res.text)
