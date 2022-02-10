@@ -3,6 +3,11 @@ import requests
 import time
 import getmigu as gm
 
+#Force IPV4
+import socket
+import requests.packages.urllib3.util.connection as urllib3_cn
+urllib3_cn.HAS_IPV6=False
+
 def getDbID(pid):
     try:
         url = "https://app-sc.miguvideo.com/vms-match/v5/staticcache/basic/basic-data/%s/miguvideo" % pid
