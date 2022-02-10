@@ -3,6 +3,11 @@ import requests
 import json
 import sys
 
+#Force IPV4
+import socket
+import requests.packages.urllib3.util.connection as urllib3_cn
+urllib3_cn.HAS_IPV6=False
+
 def ddCalcu(url):
     new_url = parse.urlparse(url)
     para = dict(parse.parse_qsl(new_url.query))
