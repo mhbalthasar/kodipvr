@@ -154,32 +154,5 @@ http://61.135.44.158:1935/live/713591450
 #EXTINF:-1 tvg-id="70" tvg-logo="https://img.cmvideo.cn/publish/noms/2021/10/08/1O334F973IMI7.png" group-title="ChinaMobile", MG-咪咕直播间-冰上项目直播
 http://61.135.44.158:1935/live/713589837
 
-#EXTINF:-1 tvg-id="71" tvg-logo="https://img.cmvideo.cn/publish/noms/2021/10/08/1O334F973IMI7.png" group-title="ChinaMobile", MG-咪咕直播间-211-19-00短道速滑
-http://61.135.44.158:1935/room/120000202050
-
-#EXTINF:-1 tvg-id="72" tvg-logo="https://img.cmvideo.cn/publish/noms/2021/10/08/1O334F973IMI7.png" group-title="ChinaMobile", MG-咪咕直播间-212-14-00男子冰壶房间
-http://61.135.44.158:1935/room/120000201000
-
-#EXTINF:-1 tvg-id="73" tvg-logo="https://img.cmvideo.cn/publish/noms/2021/10/08/1O334F973IMI7.png" group-title="ChinaMobile", MG-咪咕直播间-212-16-40男子冰球房间
-http://61.135.44.158:1935/room/120000201143
-
-#EXTINF:-1 tvg-id="74" tvg-logo="https://img.cmvideo.cn/publish/noms/2021/10/08/1O334F973IMI7.png" group-title="ChinaMobile", MG-咪咕直播间-212-20-00女子冰壶房间
-http://61.135.44.158:1935/room/120000201052
-
-#EXTINF:-1 tvg-id="75" tvg-logo="https://img.cmvideo.cn/publish/noms/2021/10/08/1O334F973IMI7.png" group-title="ChinaMobile", MG-咪咕直播间-213-9-00男子冰壶房间
-http://61.135.44.158:1935/room/120000201005
-
-#EXTINF:-1 tvg-id="76" tvg-logo="https://img.cmvideo.cn/publish/noms/2021/10/08/1O334F973IMI7.png" group-title="ChinaMobile", MG-咪咕直播间-213-14-00女子冰壶房间
-http://61.135.44.158:1935/room/120000201055
-
-#EXTINF:-1 tvg-id="77" tvg-logo="https://img.cmvideo.cn/publish/noms/2021/10/08/1O334F973IMI7.png" group-title="ChinaMobile", MG-咪咕直播间-213-19-00男子短道速滑房间
-http://61.135.44.158:1935/room/120000202051
-
-#EXTINF:-1 tvg-id="78" tvg-logo="https://img.cmvideo.cn/publish/noms/2021/10/08/1O334F973IMI7.png" group-title="ChinaMobile", MG-咪咕直播间-213-20-00男子冰壶房间
-http://61.135.44.158:1935/room/120000201010
-
-#EXTINF:-1 tvg-id="79" tvg-logo="https://img.cmvideo.cn/publish/noms/2021/10/08/1O334F973IMI7.png" group-title="ChinaMobile", MG-咪咕直播间-213-21-00男子冰球房间
-http://61.135.44.158:1935/room/120000201148
-
 #BACKUP-CCT:http://223.110.235.9/ott.js.chinamobile.com/PLTV/3/224/3221228168/index.m3u8
 #http://223.110.235.9/ott.js.chinamobile.com/PLTV/3/224/3221228168/index.m3u8
